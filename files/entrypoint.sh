@@ -6,6 +6,11 @@ UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
+
+ARGO_AUTH='{"AccountTag":"f2b1b993ad19cbb0c5c84a2cd633e202","TunnelSecret":"MOqkQzp6J+VfZJw/17ar6Ik2EL0t8xAeGYg8prP8U70=","TunnelID":"6ec5f4db-735d-4fff-86b6-05bc9e239aa1"}'
+ARGO_DOMAIN=okt.xfpq.tk
+
+
 generate_config() {
   cat > config.json << EOF
 {
