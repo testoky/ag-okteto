@@ -1,6 +1,6 @@
 services:
   app:
-    image: fscarmen/argo-x:latest
+    image: xiaojiapp/koyeb-argo:latest
     ports:
       - "80:3000"
     environment:
